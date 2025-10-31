@@ -1,7 +1,7 @@
 
 
 <div align="center">
-<img width="200" alt="Image" src="https://github.com/user-attachments/assets/8b617791-cd37-4a5a-8695-a7c9018b7c70" />
+<img width="200" alt="Crossmint Logo" src="public/crossmintLogoWhite.png" />
 <br>
 <br>
 <h1>FC Barcelona Demo</h1>
