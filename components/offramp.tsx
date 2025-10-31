@@ -229,10 +229,10 @@ export function Offramp() {
             {/* Offramp Button */}
             <button
               className={cn(
-                "w-full py-3 px-4 rounded-full text-sm font-medium transition-colors",
+                "w-full py-3 px-4 rounded-full text-sm font-medium transition-all",
                 isLoading || !amount
                   ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                  : "bg-[#F93030] text-white hover:bg-[#e02b2b]"
+                  : "bg-gradient-to-r from-[#004d98] to-[#a50044] text-white hover:from-[#003d7a] hover:to-[#850035]"
               )}
               onClick={handleOfframp}
               disabled={isLoading || !amount}

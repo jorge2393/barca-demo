@@ -414,10 +414,10 @@ export function VirtualCard() {
                   <div className="mt-1.5">
                     <button
                     className={cn(
-                      "w-full py-3 px-4 rounded-full text-sm font-medium transition-colors",
+                      "w-full py-3 px-4 rounded-full text-sm font-medium transition-all",
                       isFundLoading || !fundAmount || isFundSuccess
                         ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                        : "bg-[#F93030] text-white hover:bg-[#e02b2b]"
+                        : "bg-gradient-to-r from-[#004d98] to-[#a50044] text-white hover:from-[#003d7a] hover:to-[#850035]"
                     )}
                     onClick={handleFundCard}
                     disabled={isFundLoading || !fundAmount || isFundSuccess}
@@ -456,11 +456,11 @@ export function VirtualCard() {
                   </p>
                 </div>
                 <Image
-                  src="/Papaya%20Global_idSGOFmIwv_1.png"
-                  alt="Papaya Global"
-                  width={32}
-                  height={32}
-                  className="rounded"
+                  src="/wirex-logo.png"
+                  alt="Wirex Logo"
+                  width={64}
+                  height={64}
+                  className="absolute top-0.5 right-4.5 rounded z-10"
                 />
               </div>
               <div className="flex justify-between items-end">
